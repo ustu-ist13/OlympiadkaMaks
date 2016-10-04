@@ -10,7 +10,7 @@ namespace Task_A
     {
         static void Main(string[] args)
         {
-            //comment
+            
 
         }
     }
