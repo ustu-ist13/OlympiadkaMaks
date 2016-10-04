@@ -10,7 +10,15 @@ namespace Task_A
     {
         static void Main(string[] args)
         {
-            
+            int TaskFor1Hour = Int32.Parse(Console.ReadLine());
+            if (TaskFor1Hour < 8)
+            {
+                Console.WriteLine("YES");
+            }
+            else
+            {
+                Console.WriteLine("NO");
+            }
 
         }
     }
