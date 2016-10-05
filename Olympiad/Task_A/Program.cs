@@ -11,7 +11,7 @@ namespace Task_A
         static void Main(string[] args)
         {
             int TaskFor1Hour = Int32.Parse(Console.ReadLine());
-            if (TaskFor1Hour < 8)
+            if (TaskFor1Hour > 6)
             {
                 Console.WriteLine("YES");
             }
